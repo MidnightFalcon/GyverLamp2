@@ -32,13 +32,13 @@
 #define USE_BTN 0           // 1 использовать кнопку, 0 нет
 
 // ------------- АЦП --------------
-#define USE_ADC 0           // можно выпилить АЦП
+#define USE_ADC 1            // можно выпилить АЦП
 #define USE_CLAP 0          // два хлопка в ладоши вкл выкл лампу
 #define MIC_VCC 12          // питание микрофона GPIO12 (D6 на wemos/node)
 #define PHOT_VCC 14         // питание фоторезистора GPIO14 (D5 на wemos/node)
 
 // ------------ Лента -------------
-#define STRIP_PIN D4         // пин ленты GPIO2 (D4 на wemos/node), GPIO5 (D1) для module
+#define STRIP_PIN D1         // пин ленты GPIO2 (D4 на wemos/node), GPIO5 (D1) для module
 #define MAX_LEDS 300        // макс. светодиодов
 #define STRIP_CHIP WS2812   // чип ленты
 #define STRIP_COLOR GRB     // порядок цветов в ленте
