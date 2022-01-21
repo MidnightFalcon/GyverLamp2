@@ -28,7 +28,7 @@
 #define GL_KEY "GL"         // ключ сети
 
 // ------------ Кнопка -------------
-#define BTN_PIN D2           // пин кнопки GPIO4 (D2 на wemos/node), 0 для схемы с ESP-01
+#define BTN_PIN D1           // пин кнопки GPIO4 (D2 на wemos/node), 0 для схемы с ESP-01
 #define USE_BTN 0           // 1 использовать кнопку, 0 нет
 
 // ------------- АЦП --------------
@@ -38,7 +38,7 @@
 #define PHOT_VCC 14         // питание фоторезистора GPIO14 (D5 на wemos/node)
 
 // ------------ Лента -------------
-#define STRIP_PIN D1         // пин ленты GPIO2 (D4 на wemos/node), GPIO5 (D1) для module
+#define STRIP_PIN D2         // пин ленты GPIO2 (D4 на wemos/node), GPIO5 (D1) для module
 #define MAX_LEDS 300        // макс. светодиодов
 #define STRIP_CHIP WS2812   // чип ленты
 #define STRIP_COLOR GRB     // порядок цветов в ленте
@@ -52,8 +52,8 @@
 */
 
 // ------------ WiFi AP ------------
-const char AP_NameChar[] = "GyverLamp2";
-const char WiFiPassword[] = "12345678";
+const char AP_NameChar[] = "Fire_Lamp";
+const char WiFiPassword[] = "123456789";
 
 // ------------ Прочее -------------
 #define GL_VERSION 23       // код версии прошивки
